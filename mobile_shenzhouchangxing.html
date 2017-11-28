@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>平安保险 | 神州畅行</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+    <link href="css/mobile_shenzhouchangxing.css" rel="stylesheet" type="text/css">
+</head>
+<div class="container-fluid warp">
+    <div class="row insu1_top"><img src="img/top.png" alt="top" class="img-responsive center-block"></div>
+    <div class="row insu1_tab text-center">保险责任与范围</div>
+    <div class="row insu1_desc">
+        <span>保险责任描述：</span>在保险期间内，承担被保险人在乘坐商业运营的飞机、火车、地铁、轻轨、轮船、汽车、出租车期间因遭受意外伤害事故所导致的身故、残疾责任
+    </div>
+    <div class="row insu1_div"><img src="img/baoe.png" alt="保额" class="img-responsive center-block"></div>
+    <div class="row insu1_tab text-center">完善信息</div>
+    <!--录入信息开始-->
+    <div class="row insurance_div1">
+        <ul class="row">
+            <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ins_li">
+                <p class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ins_li_font">姓　　名</p>
+                <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ins_li_input"><input type="text" value=""
+                                                                                   placeholder="请输入您的姓名"
+                                                                                   class="ins_name"/></p>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ins_li">
+                <p class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ins_li_font">性　　别</p>
+                <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ins_li_input1">
+                    <label>
+                        <input name="sex" class="sex" type="radio" value="1" checked>　男
+                    </label>
+                    <label>　　<input
+                            name="sex" class="sex" type="radio" value="0">　女
+                    </label>
+                </p>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ins_li">
+                <p class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ins_li_font">出生日期</p>
+                <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ins_li_input"><input type="text" value=""
+                                                                                   placeholder="请输入您的出生日期"
+                                                                                   onClick="laydate()"
+                                                                                   class="ins_daty"/></p>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ins_li">
+                <p class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ins_li_font">身份证号</p>
+                <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ins_li_input"><input type="text" value=""
+                                                                                   placeholder="请输入您的身份证号"
+                                                                                   class="ins_idNo"/></p>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ins_li">
+                <p class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ins_li_font">手机号码</p>
+                <p class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ins_li_input"><input type="text" value=""
+                                                                                   placeholder="请输入您的手机号码"
+                                                                                   class="ins_tel"/></p>
+            </li>
+            <li class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ins_li">
+                <p class="col-xs-3 col-sm-3 col-md-3 col-lg-3 text-center ins_li_font">省份城市</p>
+                <div class="col-xs-9 col-sm-9 col-md-9 col-lg-9 ins_li_input2">
+                    <select class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="tpl-area-province">
+                        <option value="">请选择</option>
+                        <option value="">请选择</option>
+                    </select>
+                    <select class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="tpl-area-city">
+                        <option value="">请选择</option>
+                        <option value="">请选择</option>
+                    </select>
+                    <select class="col-xs-4 col-sm-4 col-md-4 col-lg-4" id="tpl-area-town">
+                        <option value="">请选择</option>
+                        <option value="">请选择</option>
+                    </select>
+
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="row">
+        <div class="insurance_but1 col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"><input type="button"
+                                                                                               value="立即领取"/></div>
+    </div>
+    <div class="row insu_div2">
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center"><input type="checkbox" checked value=""
+                                                                              class="ins_check"> 本人同意中国平安后续致电联系确认赠险相关事宜
+        </p>
+    </div>
+    <!--录入信息结束-->
+    <div class="insurance_foot col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ins_p">赠险说明</p>
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">1、投保年龄：本次赠险活动仅限投保年龄为25-50周岁范围内用户投保；</p>
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">2、生效时间：成功领取保险后以平安保险公司系统记录为准；</p>
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            3、保单形式：电子保单。根据《中华人民共和国合同法》第十一条规定，数据电文是合法的合同表现形式，电子保单与纸质保单具有同等法律效力；</p>
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">4、信息变更：本次赠险活动不可受理任何变更，投保时请正确填写投保信息；</p>
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">5、告知义务：投保人及被保险人 应就保险公司提出的询问如实告知，否则保险公司有权解除保险合同；</p>
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+            6、保单查询：用户可拨打中国平安95511或http://e.pingan.com/pa18shoplife/zengxian/pro_zengxian.jsp进行保单查询；</p>
+        <p class="col-xs-12 col-sm-12 col-md-12 col-lg-12">7、所有信息归中国平安所有。</p>
+    </div>
+
+    <!--弹出内容-->
+    <div class="row ins_pin">
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">&nbsp;</div>
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text-center ins_chan"></div>
+        <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">&nbsp;</div>
+    </div>
+
+    <!--弹出内容-->
+</div>
+<body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/jsrender.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/urlHandler.js"></script>
+<script src="js/laydate.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(function () {
+        //实现图片大小自适应
+        $(".invitation_top img").addClass("img-responsive center-block");
+    });
+
+</script>
+</body>
+</html>
+
+

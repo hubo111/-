@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+.warp{font-family:"微软雅黑"; background:#121929;}
+.insu2_tab2{height:auto;  margin:10px 0px;}
+.insu2_desc{height:auto;  margin:0px;}
+/*.insu2_desc{height:auto; background:url(../img/bj_01.png) center center no-repeat; background-size:100%; padding:10px 15px;  margin:0px; font-size:1.1rem;  color:#fff;}
+.insu2_desc span{color:#ff965f; font-size:1.4rem;}
+*/
+.insu2_div{padding:0 15px; margin-top:10px; margin-bottom:10px;}
+.insu2_div1{background:#424754; margin:0px; border-radius:5px; border:1px solid #4e687a; height:500px; padding-top:10px; margin-top:15px; margin-bottom:10px;}
+.ins_li{height:60px;}
+.ins_li_font{ line-height:60px; color:#fff; padding:0px;}
+.ins_li_input input{height:12px; padding:18px 0px 18px 10px; border:1px solid #4e687a; width:100%; margin-top:13px;}
+.ins_li_input1 input{margin-top:28px;}
+.ins_li_input2{height:60px;}
+/*城市省份*/
+.ins_ws{height:60px;} /*修改*/
+.ins_ws dt{line-height: 32px; padding-right: 10px; text-align: right; font-size: 14px; color: #333; float: left;}
+.ins_ws dd{ height: 30px; padding-left: 10px; line-height: 30px; border: 1px solid #4e687a; float: left; position: relative; width:100%;  margin-top:-13px; margin-left:-12px; background:#fff;}
+.ins_ws dd span{ float: right; cursor: pointer; line-height:23px; width:24px; text-align:center; border-left:1px solid #ccc; margin-top:2px;}
+.ins_ws dd ul{ width: 100%; border: 1px solid #4e687a; background: #F3F3F3; position: absolute; left: -1px; top:29px; z-index: 99;  height:auto; overflow-y:auto; }
+.ins_ws dd ul li{ width: 80%; cursor: pointer; height:30px; left:10px; border:none; line-height:30px; padding-left:5px;}
+.ins_ws .none{ display: none;}
+/*按钮*/
+.insu2_but1{height:70px; width:100%;}
+.insu2_but1 input{ background:none; width:90%; height:40px; border:none; background:#c3daff; border-radius:3px;  text-align:center;  margin-top:20px; cursor:pointer;}
+.insu_div2 input{vertical-align:-1px;}
+.insu_div2 p{ line-height:25px;  font-size:1.2rem; color:#fff;}
+.ins_p{font-size:1.4rem;}
+.ins_pin{ height:30px; width:100%;  position:fixed;  z-index:999; left:0; top:20%; margin:0px;}
+.ins_chan{background:#000;  color:#fff; border-radius:10px; height:30px; line-height:30px;  left:0; top:141px;  filter:alpha(opacity:50);opacity:0.5; display:none;}
+.insurance_foot{color:#fff; font-size:1.2rem; margin-bottom:50px; padding:0px;}
+.insurance_foot p{padding:0px; line-height:25px;}
+
+
+select{padding: 8px 0px; margin-top: 14px; border:1px solid #4e687a}

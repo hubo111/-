@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.warp{font-family:"微软雅黑"; background:#f8f7f1;}
+.insu1_tab{height:60px; background:url(../img/tab.png) center center no-repeat; background-size:100%; line-height:60px; color:#824209; padding:0 15px;  margin:0px;}
+.insu1_desc{height:auto; border:2px solid #00561f; padding:10px 15px;  margin:0px; font-size:1.1rem; line-height:23px;}
+.insu1_desc span{color:#f48521; font-size:1.4rem;}
+.insu1_div{padding:0 15px; margin-top:20px;}
+.ins_li{height:60px;}
+.ins_li_font{ line-height:60px;}
+.ins_li_input input{height:12px; padding:18px 0px 18px 10px; border:1px solid #f48521; width:100%; margin-top:13px;}
+.ins_li_input1 input{margin-top:28px;}
+.ins_li_input2{height:60px;}
+/*城市省份*/
+.ins_ws{height:60px;} /*修改*/
+.ins_ws dt{line-height: 32px; padding-right: 10px; text-align: right; font-size: 14px; color: #333; float: left;}
+.ins_ws dd{ height: 30px; padding-left: 10px; line-height: 30px; border: 1px solid #f48521; float: left; position: relative; width:100%;  margin-top:-13px; margin-left:-12px; background:#fff;}
+.ins_ws dd span{ float: right; cursor: pointer; line-height:23px; width:24px; text-align:center; border-left:1px solid #ccc; margin-top:2px;}
+.ins_ws dd ul{ width: 100%; border: 1px solid #D4D4D4; background: #F3F3F3; position: absolute; left: -1px; top:29px; z-index: 99;  height:auto; overflow-y:auto; }
+.ins_ws dd ul li{ width: 80%; cursor: pointer; height:30px; left:10px; border:none; line-height:30px; padding-left:5px;}
+.ins_ws .none{ display: none;}
+/*按钮*/
+.insurance_but1{height:70px; width:100%;}
+.insurance_but1 input{ background:none; width:300px; height:40px; border:none; background:#00561f; border-radius:3px;  text-align:center; color:#fff; margin-top:20px; cursor:pointer;}
+.insu_div2 input{vertical-align:-1px;}
+.insu_div2 p{ line-height:25px;  font-size:1.2rem; }
+.insurance_foot{height:auto;  width:100%; margin:10px 0px 50px 0px; padding:0; font-size:1.2rem;}
+.insurance_foot p{ line-height:25px; padding:0;} 
+.ins_p{font-size:1.4rem;}
+.ins_pin{ height:30px; width:100%;  position:fixed;  z-index:999; left:0; top:40%; margin:0px;}
+.ins_chan{background:#000;  color:#fff; border-radius:10px; height:30px; line-height:30px;  left:0; top:141px;  filter:alpha(opacity:50);opacity:0.5; display:none;}
+
+
+select{padding: 8px 5px; margin-top: 14px; border: 1px solid #f48521}
